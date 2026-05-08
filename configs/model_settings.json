@@ -1,0 +1,14 @@
+{
+  "primary_provider": "openai",
+  "primary_model": "gpt-5.1",
+  "reviewer_providers": [
+    "anthropic",
+    "google"
+  ],
+  "reviewer_models": {
+    "anthropic": "claude-3-5-sonnet-latest",
+    "google": "gemini-1.5-pro"
+  },
+  "max_retries": 3,
+  "sleep_between_calls_sec": 1.5
+}

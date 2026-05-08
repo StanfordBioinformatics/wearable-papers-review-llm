@@ -1,0 +1,3 @@
+Code availability statement draft:
+
+The code used to support the LLM-assisted screening and content extraction workflow is available in the accompanying repository. The repository contains plain-Python scripts for title/abstract screening, full-text eligibility screening, structured full-text extraction, optional reviewer-model adjudication, and taxonomy mapping of wearable data types and algorithm categories. Configuration files define the controlled vocabularies for health domains, consumer wearable devices, data types, and algorithm categories. Human-in-the-loop review is supported through CSV outputs for screening decisions and taxonomy mapping.

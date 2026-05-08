@@ -1,0 +1,36 @@
+{
+  "review_scope": "Original human studies using in-scope consumer wearable devices for health monitoring, validation, diagnosis, prediction, algorithm development, or clinically relevant digital health analysis.",
+  "title_abstract_stage": {
+    "purpose": "Use title and abstract to remove clearly irrelevant records while preserving uncertain records for full-text review.",
+    "include_if": [
+      "The title/abstract indicates an original human study.",
+      "The title/abstract indicates use of an in-scope consumer wearable device or is sufficiently ambiguous that full-text review is needed.",
+      "The study appears to analyze wearable-derived data for a health, physiology, behavior, validation, monitoring, diagnosis, prediction, or algorithm-related purpose."
+    ],
+    "exclude_if_clear": [
+      "Not a consumer wearable study.",
+      "Uses only research-grade, prototype, laboratory, clinical, implantable, or non-wearable sensors.",
+      "Review, systematic review, meta-analysis, scoping review, narrative review, editorial, commentary, letter without original data, protocol, conference abstract only, or case report/case series not suitable for the review.",
+      "Animal, bench, simulation-only, engineering-only, or non-human study.",
+      "No wearable-derived data analysis relevant to the review scope."
+    ],
+    "conservative_rule": "If the abstract does not provide enough information to determine eligibility, return Unclear rather than Exclude."
+  },
+  "full_text_stage": {
+    "purpose": "Use the full text to make a final include/exclude decision.",
+    "include_if": [
+      "The full text is an original human study.",
+      "At least one in-scope consumer wearable device was actually used in the study.",
+      "Wearable-derived data were analyzed for health, physiology, behavior, validation, prediction, monitoring, diagnosis, or algorithm development.",
+      "The paper is not an excluded publication type."
+    ],
+    "exclude_if": [
+      "No in-scope consumer wearable device was used.",
+      "Only research-grade, prototype, clinical, custom, implantable, or non-consumer devices were used.",
+      "The wearable is mentioned only in background, discussion, or future work but not used in the study analysis.",
+      "Review/evidence synthesis, protocol, editorial/commentary, conference abstract only, case report, non-human study, or other excluded design.",
+      "Full text does not contain enough information to confirm use of in-scope wearable-derived data."
+    ],
+    "conservative_rule": "Use Unclear only when the full text is genuinely insufficient or contradictory; otherwise choose Include or Exclude."
+  }
+}

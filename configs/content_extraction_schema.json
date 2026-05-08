@@ -1,0 +1,46 @@
+{
+  "PMID": null,
+  "title": null,
+  "study_publish_year": null,
+  "health_domains": [],
+  "consumer_wearable_used": null,
+  "consumer_wearables_used": [],
+  "device_extractions": [
+    {
+      "raw_device_name": "string",
+      "standardized_device_category": "one allowed device category or Other/Unclear",
+      "wearable_data_types_raw": [
+        "string"
+      ],
+      "device_use_summary": "string or null"
+    }
+  ],
+  "wearable_data_types_raw": [],
+  "study_type": null,
+  "algorithm_developed": null,
+  "algorithm_or_data_analysis_used": null,
+  "algorithm_types_raw": [],
+  "algorithm_development_summary": null,
+  "performance_metrics": [
+    {
+      "metric_name": "string",
+      "metric_value": "string or null",
+      "task_or_finding": "string or null",
+      "ground_truth_or_reference": "string or null",
+      "notes": "string or null"
+    }
+  ],
+  "participants": {
+    "participant_count": null,
+    "characteristics_summary": null
+  },
+  "study_location": {
+    "institutions_or_organizations": [],
+    "state_or_region": null,
+    "country": null,
+    "location_summary": null
+  },
+  "study_summary": null,
+  "evidence_notes": null,
+  "extraction_notes": null
+}

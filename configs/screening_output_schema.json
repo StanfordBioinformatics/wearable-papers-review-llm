@@ -1,0 +1,16 @@
+{
+  "pmid": "string or null",
+  "title": "string or null",
+  "decision": "Include, Exclude, or Unclear",
+  "primary_exclusion_category": "string or null",
+  "exclusion_reason": "string or null",
+  "consumer_wearable_mentioned": "Yes, No, or Not sure",
+  "in_scope_consumer_wearable_used": "Yes, No, or Not sure",
+  "devices_detected": [],
+  "publication_or_study_type": "string or null",
+  "original_human_study": "Yes, No, or Not sure",
+  "wearable_data_analyzed": "Yes, No, or Not sure",
+  "needs_human_review": "Yes or No",
+  "confidence": "High, Medium, or Low",
+  "evidence_or_rationale": "string"
+}
