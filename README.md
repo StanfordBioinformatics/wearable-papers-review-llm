@@ -11,7 +11,7 @@ The workflow is intentionally simple: run the numbered Python files in `code/`. 
 
 ## Fixed review criteria
 
-The code uses fixed device and health-domain vocabularies stored in JSON:
+The code uses predefined device and health-domain vocabularies stored in JSON:
 
 - `configs/consumer_wearable_devices.json`
 - `configs/health_domains.json`
@@ -42,7 +42,7 @@ python code/05_build_taxonomy_mappings.py
 python code/06_apply_taxonomy_mappings.py
 python code/07_filter_algorithm_development_papers.py
 
-Step 06 preserves the reviewed standardized-label columns (`data_types_standardized` and `algorithm_types_standardized`) and additionally creates final controlled-taxonomy columns using the predefined config files: `data_type_taxonomy_categories`, `algorithm_taxonomy_categories`, `data_type_taxonomy_label_map`, and `algorithm_taxonomy_label_map`. These columns are carried forward automatically into the Step 07 CSV. The LLM-assisted label-to-taxonomy cache files are also written to `outputs/06_data_type_taxonomy_llm_mapping.csv` and `outputs/06_algorithm_taxonomy_llm_mapping.csv` for transparent review.
+Step 06 preserves the reviewed standardized-label columns (`data_types_standardized` and `algorithm_types_standardized`) and additionally creates final controlled-taxonomy columns using the predefined config files: `data_type_taxonomy_categories`, `algorithm_taxonomy_categories`, `data_type_taxonomy_label_map`, and `algorithm_taxonomy_label_map`, which are retrieved from multiple LLM-assisted extraction outputs as part of our research inclusion. These columns are carried forward automatically into the Step 07 CSV. The LLM-assisted label-to-taxonomy cache files are also written to `outputs/06_data_type_taxonomy_llm_mapping.csv` and `outputs/06_algorithm_taxonomy_llm_mapping.csv` for transparent review.
 
 ```
 
