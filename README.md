@@ -1,6 +1,6 @@
 <img src="WearableReviewLLM.png" width="30%" height="30%">
 
-# LLM-Assisted Consumer Wearable Systematic Review Pipeline
+# LLM-Assisted Consumer Wearable Research Systematic Review Pipeline
 
 This repository contains a plain-Python workflow for two reproducible tasks used in a consumer wearable systematic review:
 
