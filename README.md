@@ -22,13 +22,12 @@ The current health domains are Physical Activity and Mobility, Cardiovascular, S
 
 ## How to run
 
-Place PubMed title/abstract records in:
-
-`examples/pubmed_records_template.csv`
-
-Place full-text PDFs in a folder named:
-
-`papers/`
+> [!IMPORTANT]
+> Place PubMed title/abstract records in:  
+> `examples/pubmed_records_template.csv`
+>
+> Place full-text PDFs in a folder named:  
+> `papers/`
 
 Then run the numbered scripts from the repository root:
 
