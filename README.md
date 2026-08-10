@@ -56,6 +56,12 @@ The workflow is designed for human review at three points:
 2. `02_full_text_screening.csv` for final eligibility decisions.
 3. `05_data_type_mapping_for_review.csv` and `05_algorithm_mapping_for_review.csv` for taxonomy adjudication before applying final mappings.
 
+
+### Full-text review example
+
+As an example of the human-in-the-loop full-text review process, the `examples/` folder includes the review report for the **903 papers assessed at the full-text stage** of the systematic review. For each paper, the file provides the **Reviewer 1 initial decision**, **Reviewer 2 initial decision**, and the **final consensus decision** following adjudication. This example is provided to illustrate the structure and reporting of the full-text review process and to support transparency and reproducibility of the study-selection workflow.
+
+
 ## Outputs
 
 - JSONL outputs preserve full structured records.
