@@ -13,12 +13,13 @@ Review principles:
 
 Return ONLY valid JSON with:
 {
-  "reviewer_decision": "Accept, Minor revision, Major revision, or Reject extraction",
+  "review_status": "Confirmed, Corrections proposed, or Uncertain",
   "health_domain_corrections": [],
   "device_corrections": [],
   "data_type_corrections": [],
   "algorithm_corrections": [],
   "unsupported_claims": [],
+  "missing_information": [],
   "human_review_required": "Yes or No",
   "notes": "string or null"
 }
