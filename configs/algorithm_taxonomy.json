@@ -1,13 +1,14 @@
 [
-  "Regression/statistical models",
-  "Tree-based/ensemble machine learning",
-  "Support vector machine",
-  "Deep learning/neural networks",
-  "Convolutional neural network",
-  "Recurrent neural network/LSTM",
-  "Transformer/foundation model",
-  "Clustering/unsupervised learning",
-  "Signal processing/feature extraction",
-  "Rule-based/threshold algorithm",
-  "Descriptive/statistical analysis"
+  "Tree-based and ensemble ML",
+  "Regression and statistical modeling",
+  "Deep learning and neural networks",
+  "Custom and adaptive hybrid algorithms",
+  "Classical non-tree supervised ML",
+  "Rule-based and heuristic algorithms",
+  "Signal processing and feature engineering",
+  "Anomaly and change detection",
+  "Unsupervised clustering and latent-variable methods",
+  "Sequential probabilistic and state-space models",
+  "Auxiliary ML workflow methods",
+  "Transformer, attention, and foundation models"
 ]

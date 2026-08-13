@@ -1,0 +1,34 @@
+{
+  "review_status": "Confirmed, Corrections proposed, or Uncertain",
+  "field_reviews": {
+    "health_domains": {
+      "status": "Confirmed, Revise, or Uncertain",
+      "proposed_values": [],
+      "reason": "string or null"
+    },
+    "consumer_wearables_used": {
+      "status": "Confirmed, Revise, or Uncertain",
+      "proposed_values": [],
+      "reason": "string or null"
+    },
+    "data_type_taxonomy_categories": {
+      "status": "Confirmed, Revise, or Uncertain",
+      "proposed_values": [],
+      "reason": "string or null"
+    },
+    "algorithm_developed": {
+      "status": "Confirmed, Revise, or Uncertain",
+      "proposed_value": "Yes, No, or Not sure",
+      "reason": "string or null"
+    },
+    "algorithm_taxonomy_categories": {
+      "status": "Confirmed, Revise, or Uncertain",
+      "proposed_values": [],
+      "reason": "string or null"
+    }
+  },
+  "unsupported_claims": [],
+  "missing_information": [],
+  "human_review_required": "Yes or No",
+  "notes": "string or null"
+}

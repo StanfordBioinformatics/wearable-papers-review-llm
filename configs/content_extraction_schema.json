@@ -9,17 +9,17 @@
     {
       "raw_device_name": "string",
       "standardized_device_category": "one allowed device category or Other/Unclear",
-      "wearable_data_types_raw": [
-        "string"
-      ],
+      "wearable_data_types_raw": [],
       "device_use_summary": "string or null"
     }
   ],
   "wearable_data_types_raw": [],
+  "data_type_taxonomy_categories": [],
   "study_type": null,
   "algorithm_developed": null,
   "algorithm_or_data_analysis_used": null,
   "algorithm_types_raw": [],
+  "algorithm_taxonomy_categories": [],
   "algorithm_development_summary": null,
   "performance_metrics": [
     {
