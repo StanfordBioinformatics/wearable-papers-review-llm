@@ -4,7 +4,6 @@ Task:
 Review the primary extraction for ONE paper. Check whether the health domains, devices, wearable data types, algorithm-developed status, and algorithm types are supported by the supplied extraction and criteria.
 
 Review principles:
-- Be conservative.
 - Flag unsupported device, data-type, health-domain, or algorithm labels.
 - Check that device labels map to the fixed in-scope consumer wearable list.
 - Check that health domains are only from the fixed controlled vocabulary.
