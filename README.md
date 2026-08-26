@@ -29,7 +29,9 @@ Independent reviewers:
 
 Override any model via environment variables if an exact historical/current model ID is required.
 
-## API keys
+
+```markdown
+## 🔑 API Keys
 
 Copy `.env.example` to `.env` and set:
 
